@@ -9,8 +9,14 @@
 
 ## About Project
 Problem Statement: Create a laravel API to serve as a backend for a React application. Allow a new user to register and login inside the application. Logged in user can view dashboard and users list. They can create new user, edit existing, and delete as well. Also show notification for User crud actions. Use states in React.
- 
-1.  Create users table.
+
+## Steps
+1.  Create users table. Run migration.
+2.  Setup frontend using React with help of vite.
+3.  Create Login, Register, Users, Dasshboard pages.
+4.  Setup AuthController & usersController alongwith necessary requests in Laravel.
+5.  Setup UserResource and models.
+6.  Serve the api endpoints to frontend application.
 
 Requirements:
 Laravel
